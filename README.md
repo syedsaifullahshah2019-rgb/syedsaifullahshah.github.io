@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -126,7 +125,7 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Your Name. All rights reserved.</p>
+    <p>&copy; 2026 Syed Saifullah Shah. All rights reserved.</p>
   </footer>
 
 </body>
