@@ -1,143 +1,133 @@
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Architecture Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 2;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background: #222;
+      color: #FF6F00;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #FFFFFF;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #FFAA00;
+      padding-bottom: 0.5rem;
+    }
+    .project {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
 
-body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
-}
+  <!-- Header -->
+  <header>
+    <h1>SYED SAIFULLAH SHAH</h1>
+    <p>Architecture Portfolio</p>
+    <p>Designing sustainable design </p>
+  </header>
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #004080;
-  padding: 15px 30px;
-  color: white;
-}
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#research">Research</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a skilled 3D visualizer with strong concept development and management expertise. I graduated from <strong>CECOS University of IT & Emerging Sciences, Peshawar, Pakistan</strong>.
+    </p>
+    <!-- Philosophy subsection --> <h3>Philosophy</h3>
+    <p> My philosophy is the core set of ideas guiding my work, blending aesthetics, ethics, function, and culture to create meaningful spaces, focusing on how buildings express human needs, values, and societal aspirations, whether through radical innovation, transparent functionality, or deeply humanistic empathy.
+      </p>
+    <!-- FREELANCING --> 
+    <h3>FREELANCING</h3>
+    <p> I also work part-time freelancing as a graphic designer, creating presentations and assignments for students.
+    <a href="resume.pdf" target="_blank">Download Resume</a>
+  </section>
 
-.navbar .logo {
-  font-size: 1.5em;
-  font-weight: bold;
-}
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project">
+      <h3>PROJECT-1</h3>
+      <h3>Pavilion</h3>
+      <p>A usually open sometimes ornamental structure in a garden, park, or place of recreation that is used for entertainment or shelter.
+      </p>
+      <img src="Acebo X Alonso Arquitectos, Juan Rodriguez, Marcela Grassi · Centro De Las Artes De A Coruña.jpg" alt="AXONOMETRIC VIEW" width="10%">
+    </div>
+    <!-- Add more projects here -->
+  </section>
 
-.navbar ul {
-  list-style: none;
-  display: flex;
-}
+  <!-- Research Section -->
+  <section id="research">
+    <h2>Research & Writing</h2>
+    <p>Include articles, essays, or thesis excerpts here.</p>
+  </section>
 
-.navbar ul li {
-  margin-left: 20px;
-}
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Gallery / Sketchbook</h2>
+    <p>Upload sketches, diagrams, and site photos here.</p>
+  </section>
 
-.navbar ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
+  <!-- Achievements Section -->
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Award or recognition</li>
+      <li>Exhibition participation</li>
+      <li>Publication mention</li>
+    </ul>
+  </section>
 
-/* Hero */
-#hero {
-  background: url('https://source.unsplash.com/1600x600/?community,education') no-repeat center center/cover;
-  color: white;
-  text-align: center;
-  padding: 100px 20px;
-}
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="syedsaifullahshah2019@gmail.com">syedsaifullahshah2019@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">Your LinkedIn</a></p>
+    <p>Instagram: <a href="#">Your Instagram</a></p>
+  </section>
 
-#hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Your Name. All rights reserved.</p>
+  </footer>
 
-#hero p {
-  font-size: 1.2em;
-  margin-bottom: 30px;
-}
-
-.btn-primary {
-  background: #ff6600;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn-primary:hover {
-  background: #e65c00;
-}
-
-/* Sections */
-.section {
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  width: 250px;
-}
-
-/* Donate */
-.donate {
-  background: #004080;
-  color: white;
-}
-
-.btn-secondary {
-  background: #ffcc00;
-  color: #004080;
-  padding: 12px 25px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.btn-secondary:hover {
-  background: #e6b800;
-}
-
-/* Footer */
-footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 20px;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .cards {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-// Smooth scroll for navigation links
-document.querySelectorAll('nav a').forEach(link => {
-  link.addEventListener('click', function(e) {
-    e.preventDefault();
-    const target = document.querySelector(this.getAttribute('href'));
-    target.scrollIntoView({ behavior: 'smooth' });
-  });
-});
-
-// Example interactive alert for resume button
-document.querySelector('.btn').addEventListener('click', function() {
-  alert("Downloading Resume...");
-});
+</body>
+</html>
