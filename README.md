@@ -127,6 +127,3 @@
   <footer>
     <p>&copy; 2026 Syed Saifullah Shah. All rights reserved.</p>
   </footer>
-
-</body>
-</html>
