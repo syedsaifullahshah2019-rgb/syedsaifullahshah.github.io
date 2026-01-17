@@ -88,7 +88,7 @@
       <h3>Pavilion</h3>
       <p>A usually open sometimes ornamental structure in a garden, park, or place of recreation that is used for entertainment or shelter.
       </p>
-      <img src="Acebo X Alonso Arquitectos, Juan Rodriguez, Marcela Grassi · Centro De Las Artes De A Coruña.jpg" alt="AXONOMETRIC VIEW" width="10%">
+  <img src="images/pavilion.jpg" alt="Cocneptual model" width="50%">
     </div>
     <!-- Add more projects here -->
   </section>
